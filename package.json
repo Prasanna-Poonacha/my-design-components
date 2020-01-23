@@ -20,11 +20,11 @@
     "test:watch": "nwb test-react --server",
     "storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook -c .storybook",
+    "predeploy": "npm run build-storybook",
     "deploy": "gh-pages -d storybook-static"
   },
   "dependencies": {
     "gh-pages": "^2.2.0",
-    "gh-pages-deploy": "^0.5.1",
     "styled-components": "^5.0.0"
   },
   "peerDependencies": {
