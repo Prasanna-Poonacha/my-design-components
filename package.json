@@ -1,6 +1,6 @@
 {
   "name": "my-design-components",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "my-design-components React component",
   "main": "lib/index.js",
   "module": "es/index.js",
@@ -19,9 +19,11 @@
     "test:coverage": "nwb test-react --coverage",
     "test:watch": "nwb test-react --server",
     "storybook": "start-storybook -p 6006",
-    "build-storybook": "build-storybook -c .storybook"
+    "build-storybook": "build-storybook -c .storybook",
+    "deploy": "gh-pages -d storybook-static"
   },
   "dependencies": {
+    "gh-pages": "^2.2.0",
     "styled-components": "^5.0.0"
   },
   "peerDependencies": {
@@ -41,7 +43,7 @@
   "author": "",
   "homepage": "",
   "license": "MIT",
-  "repository": "",
+  "repository": "https://github.com/Prasanna-Poonacha/my-design-components.git",
   "keywords": [
     "react-component"
   ]
