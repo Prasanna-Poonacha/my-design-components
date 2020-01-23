@@ -24,6 +24,7 @@
   },
   "dependencies": {
     "gh-pages": "^2.2.0",
+    "gh-pages-deploy": "^0.5.1",
     "styled-components": "^5.0.0"
   },
   "peerDependencies": {
